@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" 
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <!--
    Info.plist
    UM-MULTI-CLOCK-SOURCE-ROUTER
@@ -8,5 +9,26 @@
    Copyright (c) 2025 ___ORGANIZATIONNAME___. All rights reserved.
 -->
 <plist version="1.0">
-<dict/>
+<dict>
+    <key>CFBundleIdentifier</key>
+    <string>com.brx86.UM-MULTI-CLOCK-SOURCE-ROUTER</string>
+    <key>CFBundleName</key>
+    <string>UM-MULTI-CLOCK-SOURCE-ROUTER</string>
+    <key>CFBundleVersion</key>
+    <string>1.0</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0.0</string>
+    <key>CFBundlePackageType</key>
+    <string>FMWK</string>
+    <key>CFBundleSignature</key>
+    <string>BRX8</string>
+    <key>CFBundleExecutable</key>
+    <string>UM-MULTI-CLOCK-SOURCE-ROUTER</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleSupportedPlatforms</key>
+    <array>
+        <string>MacOSX</string>
+    </array>
+</dict>
 </plist>
